@@ -80,7 +80,7 @@ if st.button("🔍 Predict Churn"):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://churn-api-h2rp.onrender.com/predict",
             json=data
         )
 
