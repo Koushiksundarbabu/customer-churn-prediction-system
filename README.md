@@ -62,7 +62,7 @@ User → Streamlit UI → FastAPI API → ML Model → Prediction → UI
 - Clean and user-friendly interface  
 
 ### 🌐 Live App  
-👉 [Add your Streamlit link here]
+👉 https://churn-prediction-koushik.streamlit.app/
 
 ---
 
