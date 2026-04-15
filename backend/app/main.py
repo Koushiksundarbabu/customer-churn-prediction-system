@@ -44,3 +44,13 @@ def predict(data: CustomerData):
         "churn_prediction": int(prediction),
         "probability": float(probability)
     }
+
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
